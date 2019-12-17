@@ -15,6 +15,9 @@ public class Author {
     private String firstName;
     private String lastName;
 
+    public Author() {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
